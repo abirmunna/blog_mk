@@ -1,0 +1,32 @@
+site_name: "Tech Chronicles: Resilient Code Tales, Failures & Learnings"
+site_author: "Abir Hasan Munna"
+site_logo: assets/hacker.png
+
+nav:
+  - Home: index.md
+
+theme: 
+  name: material
+  logo: assets/hacker.png 
+  font:
+    text: 'Roboto'
+
+  # change site color
+  palette:
+    - scheme: default
+      primary: 'teal'
+      accent: 'teal'
+      toggle:
+        icon: material/weather-night
+        name: night
+
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: day
+
+        
+
+
+extra: 
+  generator: false
