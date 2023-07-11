@@ -1,4 +1,4 @@
-name: mkdocs build
+name: mkdocs build and publish
 
 on:
     push:
@@ -21,7 +21,7 @@ jobs:
                   python -m pip install --upgrade pip
                   pip install -r requirements.txt
             
-            - name: Build and save site
+            - name: Build ans save docs
               run: |
                   if [ -d "site" ]; then 
                         rm -rf site; 
@@ -32,6 +32,12 @@ jobs:
                   git add .
                   git commit -m "Update docs"
                   git push
+
+            - name: Deploy to GitHub Pages
+              uses: peaceiris/actions-gh-pages@v3
+              with:
+                  github_token: ${{ secrets.GITHUB_TOKEN }}
+                  publish_dir: ./site
 
 
                 
