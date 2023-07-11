@@ -2,7 +2,7 @@ site_name: "Tech Chronicles: Resilient Code Tales, Failures & Learnings"
 site_author: "Abir Hasan Munna"
 
 nav:
-  - Home: index.md
+  - Home: index.md 
   - Abir: 
     - 'About Me': 'Abir/about.md'
     - FastAPI:
