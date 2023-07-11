@@ -3,7 +3,8 @@ name: mkdocs build and publish
 on:
     push:
         paths:
-            - 'runner/**'
+            - 'docs/**'
+            - 'mkdocs.yml'
 
 jobs:
     build:
