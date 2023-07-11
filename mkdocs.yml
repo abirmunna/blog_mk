@@ -6,7 +6,6 @@ nav:
   - Abir: 
     - 'Abir/about.md'
     - FastAPI:
-      - 'Abir/FastAPI/index.md'
       - 'FastAPI in minutes': 'Abir/FastAPI/first_one.md'
       - 'FastAPI in minutes(extended)': 'Abir/FastAPI/second_one.md'
 
