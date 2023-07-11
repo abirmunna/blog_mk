@@ -4,7 +4,7 @@ site_author: "Abir Hasan Munna"
 nav:
   - Home: index.md 
   - Abir: 
-    - 'About Me': 'Abir/about.md'
+    - 'Abir/about.md'
     - FastAPI:
       - 'Abir/FastAPI/index.md'
       - 'FastAPI': 'Abir/FastAPI/first_one.md'
