@@ -6,8 +6,8 @@ nav:
   - Abir: 
     - 'Abir/about.md'
     - FastAPI:
-      - 'FastAPI in minutes': 'Abir/FastAPI/first_one.md'
-      - 'FastAPI in minutes(extended)': 'Abir/FastAPI/second_one.md'
+      - 'FastAPI in minutes': 'Abir/FastAPI/intro.md'
+      - 'FastAPI in minutes(extended)': 'Abir/FastAPI/todo_l1.md'
 
 theme:
   name: material
