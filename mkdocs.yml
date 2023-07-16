@@ -50,6 +50,7 @@ extra:
   generator: false
 
 plugins: 
+  - search
   - open-in-new-tab
 
 
