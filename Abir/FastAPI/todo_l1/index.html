@@ -11,24 +11,22 @@
       
       
       
-        <link rel="prev" href="../..">
+        <link rel="prev" href="../intro/">
       
       
-        <link rel="next" href="../FastAPI/intro/">
-      
-      <link rel="icon" href="../../assets/hacker.png">
+      <link rel="icon" href="../../../assets/hacker.png">
       <meta name="generator" content="mkdocs-1.4.3, mkdocs-material-9.1.18">
     
     
       
-        <title>About - Tech Chronicles: Resilient Code Tales, Failures & Learnings</title>
+        <title>FastAPI in minutes(extended) - Tech Chronicles: Resilient Code Tales, Failures & Learnings</title>
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.26e3688c.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.26e3688c.min.css">
       
         
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.ecc896b0.min.css">
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ecc896b0.min.css">
       
       
 
@@ -44,7 +42,7 @@
       
     
     
-    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -72,6 +70,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#step-by-todo-api-with-fastapi" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -82,9 +85,9 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../.." title="Tech Chronicles: Resilient Code Tales, Failures &amp; Learnings" class="md-header__button md-logo" aria-label="Tech Chronicles: Resilient Code Tales, Failures & Learnings" data-md-component="logo">
+    <a href="../../.." title="Tech Chronicles: Resilient Code Tales, Failures &amp; Learnings" class="md-header__button md-logo" aria-label="Tech Chronicles: Resilient Code Tales, Failures & Learnings" data-md-component="logo">
       
-  <img src="../../assets/hacker.png" alt="logo">
+  <img src="../../../assets/hacker.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -100,7 +103,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              About
+              FastAPI in minutes(extended)
             
           </span>
         </div>
@@ -191,7 +194,7 @@
 
 
   <li class="md-tabs__item">
-    <a href="../.." class="md-tabs__link">
+    <a href="../../.." class="md-tabs__link">
       Home
     </a>
   </li>
@@ -208,7 +211,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="./" class="md-tabs__link md-tabs__link--active">
+      <a href="../../about/" class="md-tabs__link md-tabs__link--active">
         Abir
       </a>
     </li>
@@ -238,9 +241,9 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../.." title="Tech Chronicles: Resilient Code Tales, Failures &amp; Learnings" class="md-nav__button md-logo" aria-label="Tech Chronicles: Resilient Code Tales, Failures & Learnings" data-md-component="logo">
+    <a href="../../.." title="Tech Chronicles: Resilient Code Tales, Failures &amp; Learnings" class="md-nav__button md-logo" aria-label="Tech Chronicles: Resilient Code Tales, Failures & Learnings" data-md-component="logo">
       
-  <img src="../../assets/hacker.png" alt="logo">
+  <img src="../../../assets/hacker.png" alt="logo">
 
     </a>
     Tech Chronicles: Resilient Code Tales, Failures & Learnings
@@ -256,7 +259,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+      <a href="../../.." class="md-nav__link">
         Home
       </a>
     </li>
@@ -298,19 +301,11 @@
               
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../about/" class="md-nav__link">
         About
       </a>
-      
     </li>
   
 
@@ -320,16 +315,18 @@
               
   
   
+    
+  
   
     
       
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
       
       
       
-      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" >
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" checked>
       
       
       
@@ -338,7 +335,7 @@
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="true">
         <label class="md-nav__title" for="__nav_2_2">
           <span class="md-nav__icon md-icon"></span>
           FastAPI
@@ -351,7 +348,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../FastAPI/intro/" class="md-nav__link">
+      <a href="../intro/" class="md-nav__link">
         FastAPI in minutes
       </a>
     </li>
@@ -363,11 +360,21 @@
               
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../FastAPI/todo_l1/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         FastAPI in minutes(extended)
       </a>
+      
     </li>
   
 
@@ -401,16 +408,7 @@
                   
 
 
-  <h1>About</h1>
-
-<ul>
-<li>
-<p><a href="../FastAPI/intro/"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M0 2.75C0 1.784.784 1 1.75 1H5a1.75 1.75 0 0 1 1.4.7l.9 1.2a.25.25 0 0 0 .2.1h6.75c.966 0 1.75.784 1.75 1.75v8.5A1.75 1.75 0 0 1 14.25 15H5.375a.75.75 0 0 1 0-1.5h8.875a.25.25 0 0 0 .25-.25v-8.5a.25.25 0 0 0-.25-.25H7.5a1.75 1.75 0 0 1-1.4-.7l-.9-1.2a.25.25 0 0 0-.2-.1H1.75a.25.25 0 0 0-.25.25v3a.75.75 0 0 1-1.5 0v-3Z"/><path d="M1.5 12.237a2.25 2.25 0 0 1 2.262-2.249L4 9.989v1.938c0 .218.26.331.42.183l2.883-2.677a.25.25 0 0 0 0-.366L4.42 6.39a.25.25 0 0 0-.42.183v1.916l-.229-.001A3.75 3.75 0 0 0 0 12.237v1.013a.75.75 0 0 0 1.5 0v-1.013Z"/></svg></span> FastAPI Setup and Introduction</a></p>
-</li>
-<li>
-<p><a href="../FastAPI/todo_l1/"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M0 2.75C0 1.784.784 1 1.75 1H5a1.75 1.75 0 0 1 1.4.7l.9 1.2a.25.25 0 0 0 .2.1h6.75c.966 0 1.75.784 1.75 1.75v8.5A1.75 1.75 0 0 1 14.25 15H5.375a.75.75 0 0 1 0-1.5h8.875a.25.25 0 0 0 .25-.25v-8.5a.25.25 0 0 0-.25-.25H7.5a1.75 1.75 0 0 1-1.4-.7l-.9-1.2a.25.25 0 0 0-.2-.1H1.75a.25.25 0 0 0-.25.25v3a.75.75 0 0 1-1.5 0v-3Z"/><path d="M1.5 12.237a2.25 2.25 0 0 1 2.262-2.249L4 9.989v1.938c0 .218.26.331.42.183l2.883-2.677a.25.25 0 0 0 0-.366L4.42 6.39a.25.25 0 0 0-.42.183v1.916l-.229-.001A3.75 3.75 0 0 0 0 12.237v1.013a.75.75 0 0 0 1.5 0v-1.013Z"/></svg></span> FastAPI Todo App L1</a></p>
-</li>
-</ul>
+<h1 id="step-by-todo-api-with-fastapi">Step by ToDo Api with FastAPI</h1>
 
 
 
@@ -454,13 +452,13 @@
       <div class="md-dialog__inner md-typeset"></div>
     </div>
     
-    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.sections", "toc.integrate", "navigation.top", "search.suggest", "search.highlight", "content.tabs.link", "content.code.annotation", "content.code.copy"], "search": "../../assets/javascripts/workers/search.74e28a9f.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.tabs", "navigation.sections", "toc.integrate", "navigation.top", "search.suggest", "search.highlight", "content.tabs.link", "content.code.annotation", "content.code.copy"], "search": "../../../assets/javascripts/workers/search.74e28a9f.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../../assets/javascripts/bundle.220ee61c.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.220ee61c.min.js"></script>
       
         
-          <script src="../../js/open_in_new_tab.js"></script>
+          <script src="../../../js/open_in_new_tab.js"></script>
         
       
     
