@@ -26,5 +26,5 @@ Thank you for joining us on this journey of resilience, code tales, failures, an
 
 ## Contact Us
 
-Have a question or comment? We'd love to hear from you! Please reach out to us at [Chronicle_Dev](https://el9yh1nwkpy.typeform.com/to/xeMrhGUQ)
+Have a question or comment? We'd love to hear from you! Please reach out to us at [:octicons-link-external-16: Chronicle_Dev](https://el9yh1nwkpy.typeform.com/to/xeMrhGUQ){ .md-button }
 

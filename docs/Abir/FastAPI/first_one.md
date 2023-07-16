@@ -74,4 +74,4 @@ Go to [http://127.0.01:8000/redoc](http://127.0.01:8000/redoc) in your browser t
 - Testing utilities
 - And many other features
 
-# Let's get started! with a deep dive into FastAPI. [Next](second_one.md)
+#### Let's get started! with a deep dive into FastAPI. [:octicons-file-directory-symlink-16: Next](second_one.md){ .md-button}

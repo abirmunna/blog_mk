@@ -49,6 +49,9 @@ theme:
 extra:
   generator: false
 
+plugins: 
+  - open-in-new-tab
+
 
 markdown_extensions:
   - pymdownx.highlight:
